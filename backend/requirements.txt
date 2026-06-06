@@ -3,3 +3,4 @@ fastapi
 uvicorn
 pillow
 python-multipart
+google-genai

@@ -87,7 +87,7 @@
              Upload Image
           </button>
           <button class="mode-btn" id="btn-camera" onclick="switchMode('camera')">
-             Take Photo
+             Scan
           </button>
         </div>
 
@@ -125,7 +125,7 @@
           <div class="camera-placeholder" id="cameraPlaceholder">
             <!-- <div class="cam-icon">📷</div> -->
             <p>Point camera at waste item and press button to capture</p>
-            <button class="start-camera-btn" onclick="startCamera()">Start Camera</button>
+            <button class="start-camera-btn" onclick="startLiveScan()">Start Camera</button>
           </div>
         </div>
 
@@ -185,7 +185,7 @@
             </ul>
           </div>
           <div class="rec-right">
-            <img src="assets/compost-box.png" alt="Compost box" class="rec-image" onerror="this.style.display='none'"/>
+            <img src="assets/compost-box.png" alt="Compost box" class="rec-image" id="recImage" onerror="this.style.display='none'"/>
           </div>
         </div>
       </section>
